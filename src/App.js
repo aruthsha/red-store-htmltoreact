@@ -7,6 +7,8 @@ import Products from "./components/Products";
 import Latest from "./components/Latest";
 import Offer from "./components/Offer"
 import Testimonial from "./components/Testimonial"
+import Brands from "./components/Brands";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <Latest />
       <Offer />
       <Testimonial />
+      <Brands />
+      <Footer />
     </div>
   );
 }
